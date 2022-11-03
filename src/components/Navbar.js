@@ -5,7 +5,7 @@ const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light bg-dark">
 			<div className="container">
-				<a className="navbar-brand ps-5" href="#">
+				<a className="navbar-brand ps-5" href="/">
 					<img src={SovTechLogo} alt="SovTech Logo" className="logo" />
 				</a>
 				<button

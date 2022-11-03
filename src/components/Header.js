@@ -5,7 +5,9 @@ const Header = () => {
 		<div className="header-wraper">
 			<div className="main-info">
 				<h1>Hi There</h1>
-				<h2>I'm Siphamandla</h2>
+				<h2>
+					I'm <span style={{ color: "rgb(0, 110, 207)" }}>Siphamandla</span>
+				</h2>
 			</div>
 		</div>
 	);

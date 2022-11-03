@@ -54,11 +54,11 @@ nav ul li {
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a.active:focus {
-	border-bottom: 0.1875rem solid rgb(102, 175, 231);
+	border-bottom: 0.1875rem solid rgb(0, 110, 207);
 }
 
 .navbar-nav > li > a:hover {
-	border-bottom: 0.1875rem solid rgb(102, 175, 231);
+	border-bottom: 0.1875rem solid rgb(0, 110, 207);
 }
 /* --------------Header------------------ */
 .header-wraper {
