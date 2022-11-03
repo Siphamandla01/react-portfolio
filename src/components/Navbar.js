@@ -3,7 +3,7 @@ import SovTechLogo from "../sovtech_logo-2.png";
 
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+		<nav className="navbar navbar-expand-lg navbar-light bg-dark">
 			<div className="container">
 				<a className="navbar-brand ps-5" href="#">
 					<img src={SovTechLogo} alt="SovTech Logo" className="logo" />

@@ -46,6 +46,55 @@ nav ul li {
 }
 
 .navbar-nav > li > a {
+	color: #fff;
 	margin-right: 0.75rem;
 	margin-left: 0.75rem;
+	border-bottom: 0.1875rem solid rgba(151, 151, 151, 0);
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+	border-bottom: 0.1875rem solid rgb(102, 175, 231);
+}
+
+.navbar-nav > li > a:hover {
+	border-bottom: 0.1875rem solid rgb(102, 175, 231);
+}
+/* --------------Header------------------ */
+.header-wraper {
+	position: relative;
+	/* background: url(laptop-background.jpg) no-repeat; */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+		url("laptop-background.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+}
+
+.main-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.main-info h1,
+h2 {
+	font-size: 5.125rem;
+	color: rgba(255, 255, 255, 0.7);
+	text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+	.main-info h1,
+	h2 {
+		font-size: 1.7rem !important;
+	}
 }
