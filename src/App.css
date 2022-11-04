@@ -64,11 +64,11 @@ nav ul li {
 .header-wraper {
 	position: relative;
 	/* background: url(laptop-background.jpg) no-repeat; */
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
 		url("laptop-background.jpg");
 	background-size: cover;
 	background-position: center;
-	height: 90vh;
+	height: 100vh;
 }
 
 .main-info {

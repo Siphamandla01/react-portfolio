@@ -3,7 +3,10 @@ import SovTechLogo from "../sovtech_logo-2.png";
 
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-dark">
+		<nav
+			className="navbar fixed-top navbar-expand-lg navbar-light bg-dark "
+			sticky="top"
+		>
 			<div className="container">
 				<a className="navbar-brand ps-5" href="/">
 					<img src={SovTechLogo} alt="SovTech Logo" className="logo" />
@@ -31,7 +34,7 @@ const Navbar = () => {
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
+							<a className="nav-link" href="#about">
 								about
 							</a>
 						</li>

@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+	font-family: "Roboto", sans-serif;
+}
+#about {
+	height: 90vh;
+}
+.row img {
+	width: 400px;
+	border-radius: 10%;
+}
+
+.row li {
+	list-style: square;
+}
+.row p {
+	text-transform: capitalize;
+}
