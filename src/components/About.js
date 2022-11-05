@@ -5,8 +5,8 @@ const About = () => {
 	return (
 		<section id="about">
 			<div className="container mt-5 pt-5 ps-5" id="about">
-				<h1 className="text-center">About Me</h1>
 				<div className="row mt-4">
+					<h1 className="text-center mt-3">About Me</h1>
 					<div className="col-lg-4">
 						<img src={pic} alt="my image" />
 					</div>
@@ -25,7 +25,7 @@ const About = () => {
 								</ul>
 							</div>
 						</div>
-						<div className="row mt-3">
+						<div className="row mt-3 text-wrap">
 							<p>
 								Looking at the companies SovTech associates it's self with, one
 								can quickly tell that it is a company that prides it's self with

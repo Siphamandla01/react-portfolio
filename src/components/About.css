@@ -3,7 +3,7 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 #about {
-	height: 90vh;
+	height: 80vh;
 }
 .row img {
 	width: 400px;
@@ -15,4 +15,10 @@ body {
 }
 .row p {
 	text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+	.row p {
+		font-size: 11px;
+	}
 }
