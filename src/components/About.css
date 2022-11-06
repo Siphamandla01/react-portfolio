@@ -6,7 +6,8 @@ body {
 	height: 80vh;
 }
 .row img {
-	width: 400px;
+	width: 100%;
+	height: auto;
 	border-radius: 10%;
 }
 
@@ -18,7 +19,15 @@ body {
 }
 
 @media (max-width: 768px) {
-	.row p {
-		font-size: 11px;
+	.row p,
+	ul {
+		width: 100%;
+		font-size: 0.688rem;
+	}
+	#about {
+		height: 80vh;
+		margin: 0 !important;
+		padding: 10px !important;
+		padding-top: 0px !important;
 	}
 }
