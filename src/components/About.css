@@ -30,4 +30,7 @@ body {
 		padding: 10px !important;
 		padding-top: 0px !important;
 	}
+	#bio {
+		display: none;
+	}
 }

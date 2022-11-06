@@ -10,13 +10,13 @@ const About = () => {
 					<div className="col-lg-4">
 						<img src={pic} alt="my image" />
 					</div>
-					<div className="col-lg-5">
+					<div className="col">
 						<p>
 							A Sofware Development National Diploma Graduate who is currently
 							pursuing his Advanced Diploma. Passionate about computers and
 							enjoy seeing my ideas come to life.
 						</p>
-						<div className="row mt-3">
+						<div className="row" id="bio">
 							<div className="col-md-6">
 								<ul>
 									<li>Name: Siphamandla Mncube</li>
@@ -25,7 +25,7 @@ const About = () => {
 								</ul>
 							</div>
 						</div>
-						<div className="row mt-3 text-wrap">
+						<div className="row">
 							<p>
 								Looking at the companies SovTech associates it's self with, one
 								can quickly tell that it is a company that prides it's self with
